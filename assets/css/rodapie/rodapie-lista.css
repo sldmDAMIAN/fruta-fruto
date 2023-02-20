@@ -1,0 +1,11 @@
+.rodapie__lista {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 3rem;
+}
+
+@media (min-width: 768px) {
+  .rodapie__lista {
+    gap: 0 1rem;
+  }
+}
